@@ -1,0 +1,101 @@
+﻿Build started 5/5/2014 5:31:13 PM.
+     1>Project "E:\Projects\3DOCM\Software\Source\AMP_01\ampsLib\ampsLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ampsLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing ampsOperationProjInfo.h...
+         Moc'ing ampsNetwork.h...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtCore /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtGui /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtMultimedia /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtMultimediaWidgets /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtNetwork /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\ActiveQt /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtHelp /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtOpenGL /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtPrintSupport /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtScript /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtSvg /IE:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QAXSERVER /D QT_HELP_LIB /D QT_OPENGL_LIB /D QT_PRINTSUPPORT_LIB /D QT_SCRIPT_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D AMPSLIB_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Comm\ampsNetwork.cpp GeneratedFiles\Debug\moc_ampsNetwork.cpp GeneratedFiles\Debug\moc_ampsOperationAllQtGUI.cpp GeneratedFiles\Debug\moc_ampsOperationAutheticateUser.cpp GeneratedFiles\Debug\moc_ampsOperationProjInfo.cpp Operation\ampsOperationAllQtGUI.cpp Operation\ampsOperationAllQtGUI_Connect.cpp Operation\ampsOperationAllQtGUI_SLOTs.cpp Operation\ampsOperationAutheticateUser.cpp Operation\ampsOperationProjDownload.cpp Operation\ampsOperationProjInfo.cpp Operation\ampsOperationProjInfo_SLOTs.cpp
+         ampsNetwork.cpp
+         moc_ampsNetwork.cpp
+         moc_ampsOperationAllQtGUI.cpp
+         moc_ampsOperationAutheticateUser.cpp
+         moc_ampsOperationProjInfo.cpp
+         ampsOperationAllQtGUI.cpp
+         ampsOperationAllQtGUI_Connect.cpp
+         ampsOperationAllQtGUI_SLOTs.cpp
+         ampsOperationAutheticateUser.cpp
+         ampsOperationProjDownload.cpp
+         ampsOperationProjInfo.cpp
+         ampsOperationProjInfo_SLOTs.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\Projects\3DOCM\Software\Source\AMP_01\Win32\Debug\\ampsLib.lib" /LIBPATH:E:\Software\Qt\Qt_5\Qt_5_2_1_PreBuiltWin32\5.2.1\msvc2010_opengl\lib /NOLOGO Debug\ampsNetwork.obj
+         Debug\MgDialog.obj
+         Debug\MgScrollArea.obj
+         Debug\MgWidget.obj
+         Debug\moc_ampsDockWidgetBase.obj
+         Debug\moc_ampsMainWinBase.obj
+         Debug\moc_ampsNetwork.obj
+         Debug\moc_ampsOperationAllQtGUI.obj
+         Debug\moc_ampsOperationAutheticateUser.obj
+         Debug\moc_ampsOperationProjInfo.obj
+         Debug\moc_ampsTabDockWinAssetView.obj
+         Debug\moc_ampsTabDockWinFolderView.obj
+         Debug\moc_ampsTabDockWinProjView.obj
+         Debug\moc_ampsTreeView.obj
+         Debug\moc_ampsTreeWidgetBase.obj
+         Debug\moc_ampsViewContainerQtGUI.obj
+         Debug\moc_ampsWidgetAssetComment.obj
+         Debug\moc_ampsWidgetAssetProp.obj
+         Debug\moc_ampsWidgetAssetRevision.obj
+         Debug\moc_ampsWidgetAssetSelector.obj
+         Debug\moc_ampsWidgetAssetTNView.obj
+         Debug\moc_ampsWidgetAutheticateUser.obj
+         Debug\moc_ampsWidgetFolderSelector.obj
+         Debug\moc_ampsWidgetFolderView.obj
+         Debug\moc_ampsWidgetManageProjSelector.obj
+         Debug\moc_ampsWidgetProjBulletin.obj
+         Debug\moc_ampsWidgetProjChart.obj
+         Debug\moc_ampsWidgetProjInfo.obj
+         Debug\moc_ampsWidgetProjSelector.obj
+         Debug\moc_droparea.obj
+         Debug\moc_dropsitewindow.obj
+         Debug\moc_MgDialog.obj
+         Debug\moc_MgScrollArea.obj
+         Debug\moc_MgWidget.obj
+         Debug\ampsDockWidgetBase.obj
+         Debug\ampsMainWinBase.obj
+         Debug\ampsTabDockWinAssetView.obj
+         Debug\ampsTabDockWinFolderView.obj
+         Debug\ampsTabDockWinProjView.obj
+         Debug\ampsTreeView.obj
+         Debug\ampsTreeWidgetBase.obj
+         Debug\ampsViewContainerQtGUI.obj
+         Debug\ampsWidgetAssetComment.obj
+         Debug\ampsWidgetAssetProp.obj
+         Debug\ampsWidgetAssetRevision.obj
+         Debug\ampsWidgetAssetSelector.obj
+         Debug\ampsWidgetAssetTNView.obj
+         Debug\ampsWidgetAutheticateUser.obj
+         Debug\ampsWidgetFolderSelector.obj
+         Debug\ampsWidgetFolderView.obj
+         Debug\ampsWidgetManageProjSelector.obj
+         Debug\ampsWidgetProjBulletin.obj
+         Debug\ampsWidgetProjChart.obj
+         Debug\ampsWidgetProjInfo.obj
+         Debug\ampsWidgetProjSelector.obj
+         Debug\ampsWinProj.obj
+         Debug\ampsWinProjView.obj
+         Debug\ampsDataDoc.obj
+         Debug\ampsOperationAllQtGUI.obj
+         Debug\ampsOperationAllQtGUI_Connect.obj
+         Debug\ampsOperationAllQtGUI_SLOTs.obj
+         Debug\ampsOperationAutheticateUser.obj
+         Debug\ampsOperationBase.obj
+         Debug\ampsOperationProjDownload.obj
+         Debug\ampsOperationProjInfo.obj
+         Debug\ampsOperationProjInfo_SLOTs.obj
+         Debug\ampsSortProxyItemView.obj
+         Debug\droparea.obj
+         Debug\dropsitewindow.obj
+         ampsLib.vcxproj -> E:\Projects\3DOCM\Software\Source\AMP_01\Win32\Debug\ampsLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ampsLib.unsuccessfulbuild".
+         Touching "Debug\ampsLib.lastbuildstate".
+     1>Done Building Project "E:\Projects\3DOCM\Software\Source\AMP_01\ampsLib\ampsLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.23

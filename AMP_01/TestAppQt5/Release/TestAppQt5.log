@@ -1,0 +1,20 @@
+﻿Build started 31/7/2013 1:58:21 PM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\TestAppQt5\TestAppQt5.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TestAppQt5.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TestAppQt5.vcxproj -> E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Release\TestAppQt5.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\TestAppQt5.unsuccessfulbuild".
+         Touching "Release\TestAppQt5.lastbuildstate".
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\TestAppQt5\TestAppQt5.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04

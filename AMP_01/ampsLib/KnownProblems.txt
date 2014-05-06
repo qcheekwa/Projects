@@ -1,0 +1,7 @@
+
+AMPS_Lib Known Problems
+
+1) Cannot select on 3rd column of ItemView.
+2) Selection of 1st and 2nd column yield different results.
+
+3) TreeView selection + ItemView selection some time cause system to crash

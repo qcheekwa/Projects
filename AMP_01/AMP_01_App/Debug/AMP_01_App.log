@@ -1,0 +1,17 @@
+﻿Build started 16/4/2014 10:34:11 AM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\AMP_01_App\AMP_01_App.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\AMP_01_App.unsuccessfulbuild".
+       CustomBuild:
+         Moc'ing AMP_01_App.h...
+         The system cannot find the path specified.
+         Uic'ing AMP_01_App.ui...
+         The system cannot find the path specified.
+         Rcc'ing AMP_01_App.qrc...
+         The system cannot find the path specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\AMP_01_App\AMP_01_App.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.04

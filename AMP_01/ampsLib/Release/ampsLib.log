@@ -1,0 +1,91 @@
+﻿Build started 31/7/2013 1:58:03 PM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\ampsLib\ampsLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ampsLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing ampsOperationAllQtGUI.h...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Release /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimedia /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimediaWidgets /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtNetwork /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\ActiveQt /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtHelp /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtPrintSupport /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtScript /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtSvg /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QAXSERVER /D QT_HELP_LIB /D QT_OPENGL_LIB /D QT_PRINTSUPPORT_LIB /D QT_SCRIPT_LIB /D QT_SVG_LIB /D QT_WIDGETS_LIB /D AMPSLIB_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_ampsOperationAllQtGUI.cpp Operation\ampsOperationAllQtGUI.cpp Operation\ampsOperationAllQtGUI_Connect.cpp Operation\ampsOperationAllQtGUI_SLOTs.cpp
+         moc_ampsOperationAllQtGUI.cpp
+         ampsOperationAllQtGUI.cpp
+         ampsOperationAllQtGUI_Connect.cpp
+         ampsOperationAllQtGUI_SLOTs.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Release\\ampsLib.lib" /LIBPATH:E:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\lib /NOLOGO Release\ampsNetwork.obj
+         Release\MgDialog.obj
+         Release\MgScrollArea.obj
+         Release\MgWidget.obj
+         Release\moc_ampsDockWidgetBase.obj
+         Release\moc_ampsMainWinBase.obj
+         Release\moc_ampsNetwork.obj
+         Release\moc_ampsOperationAllQtGUI.obj
+         Release\moc_ampsOperationAutheticateUser.obj
+         Release\moc_ampsOperationProjInfo.obj
+         Release\moc_ampsTabDockWinAssetView.obj
+         Release\moc_ampsTabDockWinFolderView.obj
+         Release\moc_ampsTabDockWinProjView.obj
+         Release\moc_ampsTreeView.obj
+         Release\moc_ampsTreeWidgetBase.obj
+         Release\moc_ampsViewContainerQtGUI.obj
+         Release\moc_ampsWidgetAssetComment.obj
+         Release\moc_ampsWidgetAssetProp.obj
+         Release\moc_ampsWidgetAssetRevision.obj
+         Release\moc_ampsWidgetAssetSelector.obj
+         Release\moc_ampsWidgetAssetTNView.obj
+         Release\moc_ampsWidgetAutheticateUser.obj
+         Release\moc_ampsWidgetFolderSelector.obj
+         Release\moc_ampsWidgetFolderView.obj
+         Release\moc_ampsWidgetManageProjSelector.obj
+         Release\moc_ampsWidgetProjBulletin.obj
+         Release\moc_ampsWidgetProjChart.obj
+         Release\moc_ampsWidgetProjInfo.obj
+         Release\moc_ampsWidgetProjSelector.obj
+         Release\moc_droparea.obj
+         Release\moc_dropsitewindow.obj
+         Release\moc_MgDialog.obj
+         Release\moc_MgScrollArea.obj
+         Release\moc_MgWidget.obj
+         Release\ampsDockWidgetBase.obj
+         Release\ampsMainWinBase.obj
+         Release\ampsTabDockWinAssetView.obj
+         Release\ampsTabDockWinFolderView.obj
+         Release\ampsTabDockWinProjView.obj
+         Release\ampsTreeView.obj
+         Release\ampsTreeWidgetBase.obj
+         Release\ampsViewContainerQtGUI.obj
+         Release\ampsWidgetAssetComment.obj
+         Release\ampsWidgetAssetProp.obj
+         Release\ampsWidgetAssetRevision.obj
+         Release\ampsWidgetAssetSelector.obj
+         Release\ampsWidgetAssetTNView.obj
+         Release\ampsWidgetAutheticateUser.obj
+         Release\ampsWidgetFolderSelector.obj
+         Release\ampsWidgetFolderView.obj
+         Release\ampsWidgetManageProjSelector.obj
+         Release\ampsWidgetProjBulletin.obj
+         Release\ampsWidgetProjChart.obj
+         Release\ampsWidgetProjInfo.obj
+         Release\ampsWidgetProjSelector.obj
+         Release\ampsWinProj.obj
+         Release\ampsWinProjView.obj
+         Release\ampsDataDoc.obj
+         Release\ampsOperationAllQtGUI.obj
+         Release\ampsOperationAllQtGUI_Connect.obj
+         Release\ampsOperationAllQtGUI_SLOTs.obj
+         Release\ampsOperationAutheticateUser.obj
+         Release\ampsOperationBase.obj
+         Release\ampsOperationProjInfo.obj
+         Release\ampsOperationProjInfo_SLOTs.obj
+         Release\ampsSortProxyItemView.obj
+         Release\droparea.obj
+         Release\dropsitewindow.obj
+         ampsLib.vcxproj -> E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Release\ampsLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\ampsLib.unsuccessfulbuild".
+         Touching "Release\ampsLib.lastbuildstate".
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\ampsLib\ampsLib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.43

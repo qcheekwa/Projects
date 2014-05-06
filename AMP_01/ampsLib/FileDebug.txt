@@ -1,0 +1,57 @@
+
+/////////////////////////////////////////////////
+
+class ampsTreeView : public QTreeView
+{...}
+
+ampsViewContainerQtGUI.h
+{
+    ampsTreeView *m_FolderTreeView;
+    ampsTreeView *m_FolderItemView;
+}
+
+ampsViewContainerQtGUI.cpp
+
+  Init(...) ....
+
+  setWidget
+
+//////////////////////////////////////////////////////////////
+
+struct ampsDataDocProjFolder
+{
+  ampsDataDocProjFolder();
+
+  void CreateHorizontalHeaderItem(void);
+
+  QStandardItemModel *m_fileSystemModelAMPS;
+  QStandardItem *m_tvAMPSSelectedItem;
+  QFileSystemModel *m_fileSystemModel;
+  QString m_ProjName;
+  QString m_ProjID;
+  int m_LocalProjIndex;
+};
+
+ampsDataDocProjFolder::ampsDataDocProjFolder()
+{
+  m_fileSystemModelAMPS = new QStandardItemModel;
+  m_fileSystemModel = new QFileSystemModel;
+  m_ProjName = "NoName";
+  m_ProjID = "NoID";
+  m_tvAMPSSelectedItem = m_fileSystemModelAMPS->invisibleRootItem();
+}
+
+ampsDataDoc::CreateEmptyProjFolder(const int num_proj)
+
+m_DataProjFolder.push_back(ampsDataDocProjFolder::ampsDataDocProjFolder());
+
+///////////////////////////////////////////////////////////////////////////////
+
+ampsOperationAllQtGUI::SelectDispProj
+{
+    QStandardItemModel *smodel = m_DataDoc->GetItemModelByProjName(sel_item->text());
+	
+	m_ViewContainerQtGUI->m_FolderTreeView->setModel(smodel);
+}
+
+///////////////////////////////////////////////////////////////////////////////

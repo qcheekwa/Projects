@@ -1,0 +1,77 @@
+
+QRenderFile download asset
+
+::AMPSRenderfarmProxy()
+{
+  connect(ui->pbStartListening, SIGNAL(clicked()), this, SLOT(startListening()));
+}
+
+..startListening()
+{
+  _openListener()
+}
+
+::_openListener()
+{
+connect(m_tcpListener, SIGNAL(newConnection() ), this, SLOT(_clientConnected() ));
+}
+
+::_clientConnected()
+{
+  connect(m_client, SIGNAL(readyRead() ), this, SLOT(_clientReadySlot()));
+}
+
+::_clientReadySlot()
+{
+  parseMessage()
+}
+
+::parseMessage()
+{
+  jobIndex = createNewJob()
+  
+  addJob(jobIndex)
+}
+
+AMPSRenderfarmProxy::addJob(...)
+{
+  downloadFileToFolder()
+  checkPendingChunksToDownload()
+}
+
+::checkPendingChunksToDownload()
+{
+  ... SLOT(downloadAssetReply(AMPSNetworkReply)) ...
+}
+
+::downloadAssetReply()
+{
+  checkPendingChunksToDownload()
+  
+  checkJobReadyToStart()
+}
+
+::checkJobReadyToStart()
+{
+ connect(m_jobs[jobIndex]->localFolderMonitor, SIGNAL(directoryChanged (const QString&)),this, SLOT(newResults(const QString&)));
+}
+
+::newResults()
+{
+  checkJobIsFinished(jobIndex);
+}
+
+::checkJobIsFinished()
+{
+
+}
+
+
+Needed common struct
+
+struct AMPSFileChunk
+struct AMPSRenderFarmJobRequests
+struct AMPRSRenderFarmFile
+struct AMPSRenderFarmJobInputParam
+struct AMPSRenderFarmJobVariables
+

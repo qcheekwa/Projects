@@ -1,0 +1,95 @@
+﻿Build started 26/6/2013 3:11:46 PM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\AMP_01_Lib\AMP_01_Lib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\AMP_01_Lib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Uic'ing FormsUI\AMP_WinProjView.ui...
+         Uic'ing FormsUI\AMP_WinProj.ui...
+         Uic'ing FormsUI\AMP_WidgetProjBulletin.ui...
+         Uic'ing FormsUI\AMP_WidgetProjChart.ui...
+         Uic'ing FormsUI\AMP_WidgetProjInfo.ui...
+         Uic'ing FormsUI\AMP_WidgetAssetComment.ui...
+         Uic'ing FormsUI\AMP_WidgetAssetRevision.ui...
+         Uic'ing FormsUI\AMP_WidgetAssetProp.ui...
+         Uic'ing FormsUI\AMP_WidgetAssetSelector.ui...
+         Uic'ing FormsUI\AMP_WidgetProjSelector.ui...
+         Uic'ing FormsUI\AMP_WidgetFolderSelector.ui...
+         Uic'ing FormsUI\AMP_WidgetFolderView.ui...
+         Uic'ing FormsUI\AMP_WidgetAssetTNView.ui...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt_4_7_0\include /I.\GeneratedFiles\Debug /IE:\Software\Qt\Qt_4_7_0\include\QtCore /IE:\Software\Qt\Qt_4_7_0\include\QtGui /IE:\Software\Qt\Qt_4_7_0\include\QtMultimedia /IE:\Software\Qt\Qt_4_7_0\include\QtSql /IE:\Software\Qt\Qt_4_7_0\include\QtNetwork /IE:\Software\Qt\Qt_4_7_0\include\QtScript /IE:\Software\Qt\Qt_4_7_0\include\ActiveQt /IE:\Software\Qt\Qt_4_7_0\include\QtHelp /IE:\Software\Qt\Qt_4_7_0\include\QtWebKit /I..\GeneratedFiles /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_SQL_LIB /D QT_NETWORK_LIB /D QT_SCRIPT_LIB /D QAXSERVER /D QT_WEBKIT_LIB /D AMP_01_LIB_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt General\MgScrollArea.cpp General\MgWidget.cpp GeneratedFiles\Debug\moc_AMP_DockWidgetBase.cpp GeneratedFiles\Debug\moc_AMP_MainWinBase.cpp GeneratedFiles\Debug\moc_AMP_TabDockWinAssetView.cpp GeneratedFiles\Debug\moc_AMP_TabDockWinFolderView.cpp GeneratedFiles\Debug\moc_AMP_TabDockWinProjView.cpp GeneratedFiles\Debug\moc_AMP_TreeWidgetBase.cpp GeneratedFiles\Debug\moc_AMP_ViewContainerQtGUI.cpp GeneratedFiles\Debug\moc_AMP_WidgetAssetComment.cpp GeneratedFiles\Debug\moc_AMP_WidgetAssetProp.cpp GeneratedFiles\Debug\moc_AMP_WidgetAssetRevision.cpp GeneratedFiles\Debug\moc_AMP_WidgetAssetSelector.cpp GeneratedFiles\Debug\moc_AMP_WidgetAssetTNView.cpp GeneratedFiles\Debug\moc_AMP_WidgetFolderSelector.cpp GeneratedFiles\Debug\moc_AMP_WidgetFolderView.cpp GeneratedFiles\Debug\moc_AMP_WidgetManageProjSelector.cpp GeneratedFiles\Debug\moc_AMP_WidgetProjBulletin.cpp GeneratedFiles\Debug\moc_AMP_WidgetProjChart.cpp GeneratedFiles\Debug\moc_AMP_WidgetProjInfo.cpp GeneratedFiles\Debug\moc_AMP_WidgetProjSelector.cpp GeneratedFiles\Debug\moc_MgScrollArea.cpp GeneratedFiles\Debug\moc_MgWidget.cpp GUI\AMP_DockWidgetBase.cpp GUI\AMP_MainWinBase.cpp GUI\AMP_TabDockWinAssetView.cpp GUI\AMP_TabDockWinFolderView.cpp GUI\AMP_TabDockWinProjView.cpp GUI\AMP_TreeWidgetBase.cpp GUI\AMP_ViewContainerQtGUI.cpp GUI\AMP_WidgetAssetComment.cpp GUI\AMP_WidgetAssetProp.cpp GUI\AMP_WidgetAssetRevision.cpp GUI\AMP_WidgetAssetSelector.cpp GUI\AMP_WidgetAssetTNView.cpp GUI\AMP_WidgetFolderSelector.cpp GUI\AMP_WidgetFolderView.cpp GUI\AMP_WidgetManageProjSelector.cpp GUI\AMP_WidgetProjBulletin.cpp GUI\AMP_WidgetProjChart.cpp GUI\AMP_WidgetProjInfo.cpp GUI\AMP_WidgetProjSelector.cpp GUI\AMP_WinProj.cpp GUI\AMP_WinProjView.cpp
+         MgScrollArea.cpp
+         MgWidget.cpp
+         moc_AMP_DockWidgetBase.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_DockWidgetBase.cpp': No such file or directory
+         moc_AMP_MainWinBase.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_MainWinBase.cpp': No such file or directory
+         moc_AMP_TabDockWinAssetView.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_TabDockWinAssetView.cpp': No such file or directory
+         moc_AMP_TabDockWinFolderView.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_TabDockWinFolderView.cpp': No such file or directory
+         moc_AMP_TabDockWinProjView.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_TabDockWinProjView.cpp': No such file or directory
+         moc_AMP_TreeWidgetBase.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_TreeWidgetBase.cpp': No such file or directory
+         moc_AMP_ViewContainerQtGUI.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_ViewContainerQtGUI.cpp': No such file or directory
+         moc_AMP_WidgetAssetComment.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetAssetComment.cpp': No such file or directory
+         moc_AMP_WidgetAssetProp.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetAssetProp.cpp': No such file or directory
+         moc_AMP_WidgetAssetRevision.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetAssetRevision.cpp': No such file or directory
+         moc_AMP_WidgetAssetSelector.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetAssetSelector.cpp': No such file or directory
+         moc_AMP_WidgetAssetTNView.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetAssetTNView.cpp': No such file or directory
+         moc_AMP_WidgetFolderSelector.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetFolderSelector.cpp': No such file or directory
+         moc_AMP_WidgetFolderView.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetFolderView.cpp': No such file or directory
+         moc_AMP_WidgetManageProjSelector.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetManageProjSelector.cpp': No such file or directory
+         moc_AMP_WidgetProjBulletin.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetProjBulletin.cpp': No such file or directory
+         moc_AMP_WidgetProjChart.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetProjChart.cpp': No such file or directory
+         moc_AMP_WidgetProjInfo.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetProjInfo.cpp': No such file or directory
+         Generating Code...
+         Compiling...
+         moc_AMP_WidgetProjSelector.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_AMP_WidgetProjSelector.cpp': No such file or directory
+         moc_MgScrollArea.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_MgScrollArea.cpp': No such file or directory
+         moc_MgWidget.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'GeneratedFiles\Debug\moc_MgWidget.cpp': No such file or directory
+         AMP_DockWidgetBase.cpp
+         AMP_MainWinBase.cpp
+         AMP_TabDockWinAssetView.cpp
+         AMP_TabDockWinFolderView.cpp
+         AMP_TabDockWinProjView.cpp
+         AMP_TreeWidgetBase.cpp
+         AMP_ViewContainerQtGUI.cpp
+         AMP_WidgetAssetComment.cpp
+         AMP_WidgetAssetProp.cpp
+         AMP_WidgetAssetRevision.cpp
+         AMP_WidgetAssetSelector.cpp
+         AMP_WidgetAssetTNView.cpp
+         AMP_WidgetFolderSelector.cpp
+         AMP_WidgetFolderView.cpp
+         AMP_WidgetManageProjSelector.cpp
+         AMP_WidgetProjBulletin.cpp
+         AMP_WidgetProjChart.cpp
+         Generating Code...
+         Compiling...
+         AMP_WidgetProjInfo.cpp
+         AMP_WidgetProjSelector.cpp
+         AMP_WinProj.cpp
+         AMP_WinProjView.cpp
+         Generating Code...
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\AMP_01_Lib\AMP_01_Lib.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:16.06

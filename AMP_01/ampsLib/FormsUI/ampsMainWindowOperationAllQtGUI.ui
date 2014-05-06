@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_ampsOperationAllQtGUI</class>
+ <widget class="QMainWindow" name="MainWindow_ampsOperationAllQtGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1332</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="m_scrollAreaDisp">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1311</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1309</width>
+       <height>689</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1332</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="m_actionFileLogin"/>
+    <addaction name="m_actionFileLogout"/>
+    <addaction name="m_actionFileSwitchUser"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="m_actionProjectSelector"/>
+    <addaction name="m_actionProjectViewer"/>
+    <addaction name="m_actionAssetViewer"/>
+    <addaction name="m_actionRefreshFolderView"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <widget class="QMenu" name="menuDisplay_options">
+     <property name="title">
+      <string>Display options</string>
+     </property>
+     <addaction name="actionMDI_display"/>
+     <addaction name="actionTab_documents"/>
+     <addaction name="actionFloating_documents"/>
+    </widget>
+    <addaction name="menuDisplay_options"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuProject">
+    <property name="title">
+     <string>Project</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+   <addaction name="menuProject"/>
+   <addaction name="menuWindow"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="m_actionFileLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="m_actionFileLogout">
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </action>
+  <action name="m_actionFileSwitchUser">
+   <property name="text">
+    <string>Switch User</string>
+   </property>
+  </action>
+  <action name="m_actionProjectViewer">
+   <property name="text">
+    <string>Project Viewer</string>
+   </property>
+  </action>
+  <action name="m_actionAssetViewer">
+   <property name="text">
+    <string>Asset Viewer</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMDI_view">
+   <property name="text">
+    <string>MDI view</string>
+   </property>
+  </action>
+  <action name="actionMDI_display">
+   <property name="text">
+    <string>MDI display</string>
+   </property>
+  </action>
+  <action name="actionTab_documents">
+   <property name="text">
+    <string>Tab documents</string>
+   </property>
+  </action>
+  <action name="actionFloating_documents">
+   <property name="text">
+    <string>Floating documents</string>
+   </property>
+  </action>
+  <action name="m_actionProjectSelector">
+   <property name="text">
+    <string>Project Selector</string>
+   </property>
+  </action>
+  <action name="m_actionRefreshFolderView">
+   <property name="text">
+    <string>Refresh Folder View</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

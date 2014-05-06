@@ -1,0 +1,152 @@
+﻿Build started 26/6/2013 3:12:41 PM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\ampsLib\ampsLib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ampsLib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\ampsLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Uic'ing FormsUI\ampsDockWidgetAssetComment.ui...
+         Moc'ing ampsWidgetProjSelector.h...
+         Moc'ing ampsWidgetProjInfo.h...
+         Moc'ing ampsWidgetProjChart.h...
+         Moc'ing ampsWidgetProjBulletin.h...
+         Moc'ing ampsWidgetManageProjSelector.h...
+         Moc'ing ampsWidgetFolderView.h...
+         Moc'ing ampsWidgetFolderSelector.h...
+         Moc'ing ampsWidgetAssetTNView.h...
+         Moc'ing ampsWidgetAssetSelector.h...
+         Moc'ing ampsWidgetAssetRevision.h...
+         Moc'ing ampsWidgetAssetProp.h...
+         Moc'ing ampsWidgetAssetComment.h...
+         Moc'ing ampsViewContainerQtGUI.h...
+         Moc'ing ampsTreeWidgetBase.h...
+         Moc'ing ampsTabDockWinProjView.h...
+         Moc'ing ampsTabDockWinFolderView.h...
+         Moc'ing ampsTabDockWinAssetView.h...
+         Moc'ing ampsMainWinBase.h...
+         Moc'ing ampsDockWidgetBase.h...
+         Moc'ing MgScrollArea.h...
+         Moc'ing MgWidget.h...
+         Uic'ing FormsUI\ampsDockWidgetAssetProp.ui...
+         Uic'ing FormsUI\ampsDockWidgetProjBulletin.ui...
+         Uic'ing FormsUI\ampsDockWidgetProjChart.ui...
+         Uic'ing FormsUI\ampsDockWidgetProjInfo.ui...
+         Uic'ing FormsUI\ampsScrollWidgetProjInfo.ui...
+         Uic'ing FormsUI\ampsWidgetAssetComment.ui...
+         Uic'ing FormsUI\ampsWidgetAssetProp.ui...
+         Uic'ing FormsUI\ampsWidgetAssetRevision.ui...
+         Uic'ing FormsUI\ampsWidgetAssetSelector.ui...
+         Uic'ing FormsUI\ampsWidgetAssetTNView.ui...
+         Uic'ing FormsUI\ampsWidgetFolderSelector.ui...
+         Uic'ing FormsUI\ampsWidgetFolderView.ui...
+         Uic'ing FormsUI\ampsWidgetProjBulletin.ui...
+         Uic'ing FormsUI\ampsWidgetProjChart.ui...
+         Uic'ing FormsUI\ampsWidgetProjInfo.ui...
+         Uic'ing FormsUI\ampsWidgetProjSelector.ui...
+         Uic'ing FormsUI\ampsWinProj.ui...
+         Uic'ing FormsUI\ampsWinProjView.ui...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimedia /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimediaWidgets /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtNetwork /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtSql /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtTest /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWebKit /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\ActiveQt /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtHelp /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtOpenGL /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtPrintSupport /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtScript /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWebkitWidgets /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QT_TESTLIB_LIB /D QAXSERVER /D QT_HELP_LIB /D QT_OPENGL_LIB /D QT_PRINTSUPPORT_LIB /D QT_SCRIPT_LIB /D QT_WEBKITWIDGETS_LIB /D QT_WIDGETS_LIB /D AMPLIB_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt General\MgScrollArea.cpp General\MgWidget.cpp GeneratedFiles\Debug\moc_ampsDockWidgetBase.cpp GeneratedFiles\Debug\moc_ampsMainWinBase.cpp GeneratedFiles\Debug\moc_ampsTabDockWinAssetView.cpp GeneratedFiles\Debug\moc_ampsTabDockWinFolderView.cpp GeneratedFiles\Debug\moc_ampsTabDockWinProjView.cpp GeneratedFiles\Debug\moc_ampsTreeWidgetBase.cpp GeneratedFiles\Debug\moc_ampsViewContainerQtGUI.cpp GeneratedFiles\Debug\moc_ampsWidgetAssetComment.cpp GeneratedFiles\Debug\moc_ampsWidgetAssetProp.cpp GeneratedFiles\Debug\moc_ampsWidgetAssetRevision.cpp GeneratedFiles\Debug\moc_ampsWidgetAssetSelector.cpp GeneratedFiles\Debug\moc_ampsWidgetAssetTNView.cpp GeneratedFiles\Debug\moc_ampsWidgetFolderSelector.cpp GeneratedFiles\Debug\moc_ampsWidgetFolderView.cpp GeneratedFiles\Debug\moc_ampsWidgetManageProjSelector.cpp GeneratedFiles\Debug\moc_ampsWidgetProjBulletin.cpp GeneratedFiles\Debug\moc_ampsWidgetProjChart.cpp GeneratedFiles\Debug\moc_ampsWidgetProjInfo.cpp GeneratedFiles\Debug\moc_ampsWidgetProjSelector.cpp GeneratedFiles\Debug\moc_MgScrollArea.cpp GeneratedFiles\Debug\moc_MgWidget.cpp GUI\ampsDockWidgetBase.cpp GUI\ampsMainWinBase.cpp GUI\ampsTabDockWinAssetView.cpp GUI\ampsTabDockWinFolderView.cpp GUI\ampsTabDockWinProjView.cpp GUI\ampsTreeWidgetBase.cpp GUI\ampsViewContainerQtGUI.cpp GUI\ampsWidgetAssetComment.cpp GUI\ampsWidgetAssetProp.cpp GUI\ampsWidgetAssetRevision.cpp GUI\ampsWidgetAssetSelector.cpp GUI\ampsWidgetAssetTNView.cpp GUI\ampsWidgetFolderSelector.cpp GUI\ampsWidgetFolderView.cpp GUI\ampsWidgetManageProjSelector.cpp GUI\ampsWidgetProjBulletin.cpp GUI\ampsWidgetProjChart.cpp GUI\ampsWidgetProjInfo.cpp GUI\ampsWidgetProjSelector.cpp GUI\ampsWinProj.cpp GUI\ampsWinProjView.cpp
+         MgScrollArea.cpp
+         MgWidget.cpp
+         moc_ampsDockWidgetBase.cpp
+         moc_ampsMainWinBase.cpp
+         moc_ampsTabDockWinAssetView.cpp
+         moc_ampsTabDockWinFolderView.cpp
+         moc_ampsTabDockWinProjView.cpp
+         moc_ampsTreeWidgetBase.cpp
+         moc_ampsViewContainerQtGUI.cpp
+         moc_ampsWidgetAssetComment.cpp
+         moc_ampsWidgetAssetProp.cpp
+         moc_ampsWidgetAssetRevision.cpp
+         moc_ampsWidgetAssetSelector.cpp
+         moc_ampsWidgetAssetTNView.cpp
+         moc_ampsWidgetFolderSelector.cpp
+         moc_ampsWidgetFolderView.cpp
+         moc_ampsWidgetManageProjSelector.cpp
+         moc_ampsWidgetProjBulletin.cpp
+         moc_ampsWidgetProjChart.cpp
+         moc_ampsWidgetProjInfo.cpp
+         Generating Code...
+         Compiling...
+         moc_ampsWidgetProjSelector.cpp
+         moc_MgScrollArea.cpp
+         moc_MgWidget.cpp
+         ampsDockWidgetBase.cpp
+         ampsMainWinBase.cpp
+         ampsTabDockWinAssetView.cpp
+         ampsTabDockWinFolderView.cpp
+         ampsTabDockWinProjView.cpp
+         ampsTreeWidgetBase.cpp
+         ampsViewContainerQtGUI.cpp
+         ampsWidgetAssetComment.cpp
+         ampsWidgetAssetProp.cpp
+         ampsWidgetAssetRevision.cpp
+         ampsWidgetAssetSelector.cpp
+         ampsWidgetAssetTNView.cpp
+         ampsWidgetFolderSelector.cpp
+         ampsWidgetFolderView.cpp
+         ampsWidgetManageProjSelector.cpp
+         ampsWidgetProjBulletin.cpp
+         ampsWidgetProjChart.cpp
+         Generating Code...
+         Compiling...
+         ampsWidgetProjInfo.cpp
+         ampsWidgetProjSelector.cpp
+         ampsWinProj.cpp
+         ampsWinProjView.cpp
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\\ampsLib.lib" /LIBPATH:E:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\lib /NOLOGO Debug\MgScrollArea.obj
+         Debug\MgWidget.obj
+         Debug\moc_ampsDockWidgetBase.obj
+         Debug\moc_ampsMainWinBase.obj
+         Debug\moc_ampsTabDockWinAssetView.obj
+         Debug\moc_ampsTabDockWinFolderView.obj
+         Debug\moc_ampsTabDockWinProjView.obj
+         Debug\moc_ampsTreeWidgetBase.obj
+         Debug\moc_ampsViewContainerQtGUI.obj
+         Debug\moc_ampsWidgetAssetComment.obj
+         Debug\moc_ampsWidgetAssetProp.obj
+         Debug\moc_ampsWidgetAssetRevision.obj
+         Debug\moc_ampsWidgetAssetSelector.obj
+         Debug\moc_ampsWidgetAssetTNView.obj
+         Debug\moc_ampsWidgetFolderSelector.obj
+         Debug\moc_ampsWidgetFolderView.obj
+         Debug\moc_ampsWidgetManageProjSelector.obj
+         Debug\moc_ampsWidgetProjBulletin.obj
+         Debug\moc_ampsWidgetProjChart.obj
+         Debug\moc_ampsWidgetProjInfo.obj
+         Debug\moc_ampsWidgetProjSelector.obj
+         Debug\moc_MgScrollArea.obj
+         Debug\moc_MgWidget.obj
+         Debug\ampsDockWidgetBase.obj
+         Debug\ampsMainWinBase.obj
+         Debug\ampsTabDockWinAssetView.obj
+         Debug\ampsTabDockWinFolderView.obj
+         Debug\ampsTabDockWinProjView.obj
+         Debug\ampsTreeWidgetBase.obj
+         Debug\ampsViewContainerQtGUI.obj
+         Debug\ampsWidgetAssetComment.obj
+         Debug\ampsWidgetAssetProp.obj
+         Debug\ampsWidgetAssetRevision.obj
+         Debug\ampsWidgetAssetSelector.obj
+         Debug\ampsWidgetAssetTNView.obj
+         Debug\ampsWidgetFolderSelector.obj
+         Debug\ampsWidgetFolderView.obj
+         Debug\ampsWidgetManageProjSelector.obj
+         Debug\ampsWidgetProjBulletin.obj
+         Debug\ampsWidgetProjChart.obj
+         Debug\ampsWidgetProjInfo.obj
+         Debug\ampsWidgetProjSelector.obj
+         Debug\ampsWinProj.obj
+         Debug\ampsWinProjView.obj
+         ampsLib.vcxproj -> E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\ampsLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\ampsLib.unsuccessfulbuild".
+         Touching "Debug\ampsLib.lastbuildstate".
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\ampsLib\ampsLib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.34

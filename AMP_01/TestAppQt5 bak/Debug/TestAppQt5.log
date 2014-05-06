@@ -1,0 +1,27 @@
+﻿Build started 26/6/2013 2:51:42 PM.
+     1>Project "E:\Projects\AMP\Source\Desktop\AMP_01\TestAppQt5\TestAppQt5.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TestAppQt5.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Rcc'ing TestAppQt5.qrc...
+     1>RCC : warning : No resources in 'E:\Projects\AMP\Source\Desktop\AMP_01\TestAppQt5\TestAppQt5.qrc'.
+         
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimedia /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtNetwork /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtSql /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\ActiveQt /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtHelp /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtScript /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /I..\ampsLib\GeneratedFiles /I..\ampsLib /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QAXSERVER /D QT_HELP_LIB /D QT_SCRIPT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_TestAppQt5.cpp
+         qrc_TestAppQt5.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include /I.\GeneratedFiles\Debug /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtCore /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtGui /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtMultimedia /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtNetwork /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtSql /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\ActiveQt /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtHelp /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtScript /IE:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\include\QtWidgets /I..\ampsLib\GeneratedFiles /I..\ampsLib /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D QAXSERVER /D QT_HELP_LIB /D QT_SCRIPT_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\\TestAppQt5.exe" /NOLOGO /LIBPATH:E:\Software\Qt\Qt5\Qt5.0.2\5.0.2\msvc2010_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Multimediad.lib Qt5Networkd.lib Qt5Sqld.lib Qt5AxServerd.lib Qt5AxBased.lib Qt5Helpd.lib Qt5Scriptd.lib Qt5Widgetsd.lib ampsLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestAppQt5.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\TestAppQt5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\TestAppQt5.lib" /MACHINE:X86 Debug\qrc_TestAppQt5.obj
+         Debug\main.obj
+         TestAppQt5.vcxproj -> E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\TestAppQt5.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Projects\AMP\Source\Desktop\AMP_01\Win32\Debug\\TestAppQt5.exe;#1" /manifest Debug\TestAppQt5.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestAppQt5.unsuccessfulbuild".
+         Touching "Debug\TestAppQt5.lastbuildstate".
+     1>Done Building Project "E:\Projects\AMP\Source\Desktop\AMP_01\TestAppQt5\TestAppQt5.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62
